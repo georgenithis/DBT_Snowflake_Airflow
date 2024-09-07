@@ -5,6 +5,10 @@
 name: 'airflow_dbt'
 version: '1.0.0'
 
+
+vars:
+  aws_secret_key: "some_key"
+
 # This setting configures which "profile" dbt uses for this project.
 profile: 'airflow_dbt'
 
